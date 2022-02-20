@@ -1,1 +1,18 @@
-// TODO
+.container{
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.infos{
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    color: var(--gray-600);
+  }
+}
